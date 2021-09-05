@@ -34,8 +34,8 @@ public class Team {
         game = new Game();
     }
 
-    public void battingOrder(Player player){
-        listOfPlayers.add(player);
+    public void battingOrder(List<Player> playerList){
+        listOfPlayers.addAll(playerList);
     }
 
     public void printScoreCard(){

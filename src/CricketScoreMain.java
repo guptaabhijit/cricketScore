@@ -16,11 +16,7 @@ public class CricketScoreMain {
         Player p4 = new Player(4, "yuvraj");
         Player p5 = new Player(5, "sehwag");
 
-        team1.battingOrder(p1);
-        team1.battingOrder(p2);
-        team1.battingOrder(p3);
-        team1.battingOrder(p4);
-        team1.battingOrder(p5);
+        team1.battingOrder(new ArrayList<>( Arrays.asList(p1, p2, p3, p4, p5)));
 
         team1.setCurrentPlayers();
 
@@ -45,11 +41,7 @@ public class CricketScoreMain {
         Player p4 = new Player(4, "Rahane");
         Player p5 = new Player(5, "Pant");
 
-        team2.battingOrder(p1);
-        team2.battingOrder(p2);
-        team2.battingOrder(p3);
-        team2.battingOrder(p4);
-        team2.battingOrder(p5);
+        team2.battingOrder(new ArrayList<>( Arrays.asList(p1, p2, p3, p4, p5)));
 
         team2.setCurrentPlayers();
 
